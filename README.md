@@ -1,5 +1,5 @@
 ## Intro
-The aim of this page is to gather few useful resources in one place, nothing more, nothing less.
+This page aims to gather a few useful resources in one place, nothing more, nothing less.
 
 ### Links
 [LinkedIn](https://www.linkedin.com/in/kolygri/)<br/>
