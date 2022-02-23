@@ -1,4 +1,4 @@
-## Intro
+## Konstantin Grigorov
 This page aims to gather a few useful resources in one place, nothing more, nothing less.
 
 ### Links
