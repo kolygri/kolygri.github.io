@@ -1,0 +1,11 @@
+{
+  "name": "konstantin-grigorov-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A static portfolio for principal data and AI engineering.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs"
+  }
+}
