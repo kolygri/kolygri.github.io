@@ -9,7 +9,7 @@ assert.equal(new Set(ids).size, ids.length, 'HTML IDs must be unique');
 for (const match of html.matchAll(/\b(?:href|src|aria-controls|aria-labelledby)="([^"]+)"/g)) {
   const value = match[1];
   if (value.startsWith('#')) assert(ids.includes(value.slice(1)), `Missing anchor: ${value}`);
-  else if (value.startsWith('/')) await access(resolve(`.${value}`));
+  else if (value.startsWith('/')) await access(resolve(`.${new URL(value, 'https://kolygri.github.io').pathname}`));
   else if (match[0].startsWith('aria-')) for (const id of value.split(' ')) assert(ids.includes(id), `Missing ARIA target: ${id}`);
 }
 assert(html.includes('Principal Data &amp; AI Engineer'), 'Page needs the correct positioning');
