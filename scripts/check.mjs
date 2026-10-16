@@ -8,9 +8,14 @@ const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map(match => match[1]);
 assert.equal(new Set(ids).size, ids.length, 'HTML IDs must be unique');
 for (const match of html.matchAll(/\b(?:href|src|aria-controls|aria-labelledby)="([^"]+)"/g)) {
   const value = match[1];
-  if (value.startsWith('#')) assert(ids.includes(value.slice(1)), `Missing anchor: ${value}`);
-  else if (value.startsWith('/')) await access(resolve(`.${new URL(value, 'https://kolygri.github.io').pathname}`));
-  else if (match[0].startsWith('aria-')) for (const id of value.split(' ')) assert(ids.includes(id), `Missing ARIA target: ${id}`);
+  if (match[0].startsWith('aria-')) {
+    for (const id of value.split(' ')) assert(ids.includes(id), `Missing ARIA target: ${id}`);
+  } else if (value.startsWith('#')) {
+    if (value.length > 1) assert(ids.includes(value.slice(1)), `Missing anchor: ${value}`);
+  } else {
+    const url = new URL(value, 'https://kolygri.github.io/');
+    if (url.origin === 'https://kolygri.github.io') await access(resolve(`.${url.pathname}`));
+  }
 }
 assert(html.includes('Principal Data &amp; AI Engineer'), 'Page needs the correct positioning');
 assert(!/My social media links|data\.shell|Geneva|TNS/.test(html), 'Internal product language must not reach the site');

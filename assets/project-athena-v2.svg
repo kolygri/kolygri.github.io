@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 195" fill="none">
+  <g stroke="#20382d" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Athena's on-premises rack moves to AWS along one continuous arrow. -->
+    <rect x="22" y="64" width="62" height="88" rx="6" fill="#d8dfd7"/>
+    <rect x="29" y="73" width="48" height="19" rx="3" fill="#f8f7f2"/>
+    <rect x="29" y="99" width="48" height="19" rx="3" fill="#f8f7f2"/>
+    <rect x="29" y="125" width="48" height="19" rx="3" fill="#f8f7f2"/>
+    <path d="M37 82h19m-19 26h19m-19 26h19" stroke-width="1.6"/>
+    <circle cx="68" cy="82" r="2" fill="#20382d"/><circle cx="68" cy="108" r="2" fill="#20382d"/><circle cx="68" cy="134" r="2" fill="#20382d"/>
+    <path d="M96 104h42m-7-7 7 7-7 7" stroke-width="2.6"/>
+    <!-- One closed silhouette removes the broken cloud outline. -->
+    <path d="M170 120c-15 0-25-10-25-23 0-12 8-22 20-24 1-18 14-31 31-31 13 0 24 7 29 19 17-6 34 6 34 23 10 2 17 9 17 18 0 11-9 18-21 18z" fill="#d8edc1"/>
+    <!-- A clear shield represents the controls around migration. -->
+    <path d="m211 134 19 7v14c0 12-19 23-19 23s-19-11-19-23v-14z" fill="#f1cc6e"/>
+    <path d="m202 154 6 6 12-15" stroke-width="2.6"/>
+  </g>
+  <g fill="#20382d" font-family="Arial,Helvetica,sans-serif" font-weight="700" text-anchor="middle"><text x="53" y="49" font-size="11" letter-spacing=".7">ATHENA</text><text x="212" y="99" font-size="18">AWS</text></g>
+  <text x="53" y="174" fill="#53634e" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="600" text-anchor="middle" letter-spacing=".6">ON-PREM</text>
+</svg>

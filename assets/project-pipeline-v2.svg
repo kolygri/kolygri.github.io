@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 195" fill="none">
+  <g stroke="#20382d" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- One agent builds three connected stages. -->
+    <path d="M140 23V15"/><circle cx="140" cy="12" r="3" fill="#f1cc6e"/>
+    <rect x="108" y="25" width="64" height="42" rx="11" fill="#d8edc1"/>
+    <path d="M108 39h-6v15h6m64-15h6v15h-6" fill="#f8f7f2"/>
+    <circle cx="126" cy="43" r="3" fill="#20382d"/><circle cx="154" cy="43" r="3" fill="#20382d"/>
+    <path d="M130 55h20M140 67v20m-5-6 5 6 5-6"/>
+    <!-- Raw, standardised and usable data are visibly distinct. -->
+    <rect x="20" y="101" width="54" height="53" rx="6" fill="#d9b18c"/>
+    <path d="M31 115h15m7 0h8m-30 11h8m7 0h15m-30 11h19"/>
+    <rect x="113" y="101" width="54" height="53" rx="6" fill="#d8dfd7"/>
+    <path d="M124 115h32m-32 11h32m-32 11h23"/>
+    <rect x="206" y="101" width="54" height="53" rx="6" fill="#f1cc6e"/>
+    <path d="m220 128 9 9 18-20" stroke-width="3"/>
+    <path d="M82 127h23m-6-6 6 6-6 6M175 127h23m-6-6 6 6-6 6"/>
+  </g>
+  <g fill="#53634e" font-family="Arial,Helvetica,sans-serif" font-size="10.5" font-weight="600" text-anchor="middle" letter-spacing=".6">
+    <text x="47" y="175">BRONZE</text><text x="140" y="175">SILVER</text><text x="233" y="175">GOLD</text>
+  </g>
+</svg>

@@ -1,6 +1,6 @@
-# Konstantin Grigorov — Data & AI Engineering
+# Konstantin Grigorov — From idea to enterprise flagship
 
-A responsive static portfolio focused on engineering judgement, selected work, two bounded engagements and conference resources.
+A concise portfolio for enterprise leaders commissioning greenfield data and AI platforms, and founders preparing products for enterprise buyers.
 
 ## Development
 
@@ -12,25 +12,20 @@ npm run check
 npm run build
 ```
 
-The local server runs at `http://127.0.0.1:4173`. The build copies the public site into `dist/`. The root site is also compatible with GitHub Pages: `.nojekyll` bypasses Jekyll, and all existing PDF and PowerPoint paths are preserved.
+The local server runs at `http://127.0.0.1:4173`. The build copies the public site into `dist/`.
 
-## Content and maintenance
+## Maintenance
 
-- Edit copy in `index.html`, design in `styles.css` and interactions in `script.js`.
-- The portrait and conference/CV files were recovered from the existing public profile and website.
-- Fonts are self-hosted. There are no analytics, client-side dependencies or gated downloads.
-- Email links and the copy-email button use `k.l.grigorov@gmail.com`.
-- The conference date is fixed content; update it after the event if desired.
-- The homepage is independent of an employer and uses generalised project descriptions.
+- Edit content in `index.html`, presentation in `styles.css`, and the footer year in `script.js`.
+- The hero uses an optimised, transparent WebP illustration. Four SVG diagrams explain pipeline delivery, the data catalogue, algorithmic trading and Athena's migration to AWS.
+- The page uses system fonts, with no analytics or client-side dependencies.
+- Project descriptions reflect the owner's supplied experience. The catalogue's 10,000-person figure describes organisation size, rather than verified product adoption.
+- Leadership is attributed to the Shell Trading and Trading 212 projects. The Athena description identifies the J.P. Morgan migration contribution.
+- The original CV and Amsterdam PDF/PowerPoint download paths are preserved. The conference talk uses a fictional startup scenario to explain architectural decisions.
+- LinkedIn and CV links appear in navigation and contact sections. The hero deliberately contains no duplicate buttons.
 
-## Evidence and boundaries
+## Deployment
 
-Case-study copy is grounded in the user's **Principal Defence Transcript**, read from Google Drive on 12 October 2026, and the existing public CV. The transcript itself is not included in this repository or deployed output.
+GitHub Pages publishes `master` from the repository root at https://kolygri.github.io/. Push the checked source files to `origin/master` and wait for the Pages deployment to finish. `.nojekyll` keeps publication static.
 
-- **Performance:** the transcript describes a measured analytics workflow reduced from roughly 20 minutes to around 40 seconds. The site conservatively says “under a minute”, scopes the comparison to that workflow and credits the implementation rather than the original Polars recommendation.
-- **Platforms:** the transcript describes initial catalogue engineering and growth to a team of 10–15, alongside contributions to an inherited shared framework. The site makes both responsibilities clear.
-- **Agent delivery:** the transcript describes hackathon and prototype work with contracts, planning gates, evaluation and human review. The site labels the maturity explicitly and avoids treating reported experimental acceleration as a verified production outcome.
-- **Conference:** the existing slides explicitly use a fictional startup story. The resource section preserves that distinction.
-- Uncertain cost figures, internal names, vendor-contract details, panel commentary and proposed future capabilities have been omitted.
-
-The separate ignored `.site-deploy/` checkout is used only to package and publish the Sites preview; it does not change GitHub Pages automatically.
+The private Sites preview is separate from GitHub Pages; its hosting configuration and credentials are not part of this public site.

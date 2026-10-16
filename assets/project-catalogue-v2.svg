@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 195" fill="none">
+  <g stroke="#20382d" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Separate sources converge into a searchable catalogue. -->
+    <path d="M20 58v28c0 10 37 10 37 0V58" fill="#d8edc1"/>
+    <ellipse cx="38.5" cy="58" rx="18.5" ry="7" fill="#f8f7f2"/>
+    <path d="M20 72c0 10 37 10 37 0"/>
+    <path d="M20 120v28c0 10 37 10 37 0v-28" fill="#f1cc6e"/>
+    <ellipse cx="38.5" cy="120" rx="18.5" ry="7" fill="#f8f7f2"/>
+    <path d="M20 134c0 10 37 10 37 0"/>
+    <path d="M57 76h12v28h14m-26 33h12v-33m8-6 6 6-6 6"/>
+    <!-- The product is a search interface, rather than a storage cabinet. -->
+    <rect x="91" y="37" width="167" height="126" rx="8" fill="#f8f7f2"/>
+    <path d="M91 58h167"/>
+    <circle cx="102" cy="48" r="2" fill="#20382d"/><circle cx="111" cy="48" r="2" fill="#20382d"/><circle cx="120" cy="48" r="2" fill="#20382d"/>
+    <rect x="104" y="71" width="141" height="25" rx="5" fill="#d8edc1"/>
+    <circle cx="116" cy="82" r="5"/><path d="m120 86 4 4M135 83h74" stroke-width="1.7"/>
+    <rect x="107" y="109" width="12" height="15" rx="2" fill="#f1cc6e"/>
+    <path d="M128 113h75m-75 9h47" stroke-width="1.7"/>
+    <rect x="107" y="134" width="12" height="15" rx="2" fill="#d8edc1"/>
+    <path d="M128 138h75m-75 9h47m42-8 5 5 9-11" stroke-width="1.7"/>
+    <!-- A single flag identifies the flagship product. -->
+    <path d="M220 37V13m0 0h24v15h-24" fill="#f1cc6e"/>
+  </g>
+</svg>
