@@ -22,3 +22,9 @@
 /* Keep the four project diagrams at a consistent optical scale. */
 .project-art>img{width:100%;height:100%;object-fit:contain;max-width:280px;max-height:192px}
 @media(max-width:800px){.project-art>img{max-width:250px}}
+
+/* SVG paths keep arrows consistent across platforms, including iOS emoji fonts. */
+.arrow-icon { display: inline-block; width: 14px; height: 14px; max-width: none; flex-shrink: 0; vertical-align: -0.2em; }
+.monogram > .monogram-arrow { position: absolute; top: 2px; right: 3px; }
+.nav-contact .arrow-icon { margin-left: 15px; }
+footer > a > .arrow-icon { margin-left: 14px; }
